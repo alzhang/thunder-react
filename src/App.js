@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Calendar from './Calendar';
+import CalendarPane from './CalendarPane/CalendarPane';
 
 class App extends Component {
   render() {
@@ -9,7 +9,7 @@ class App extends Component {
 
         </div>
         <div className="SplitPane-right">
-          <Calendar />
+          <CalendarPane />
         </div>
       </div>
     );
@@ -17,7 +17,7 @@ class App extends Component {
 }
 
 App.defaultProps = {
-  
+
 }
 
 export default App;
