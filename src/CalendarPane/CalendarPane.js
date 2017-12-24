@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TitleBar from './Titlebar/TitleBar';
-
+import './CalendarPane.css';
 
 class CalendarPane extends Component {
   render() {

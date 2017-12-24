@@ -1,11 +1,17 @@
 .SplitPane {
-  width:100%;
+  display: table;
 }
 
 .SplitPane-left {
+  display: table-cell;
+
   float:left;
+
+  background-color: #454545;
 }
 
-.SplitPane-left {
-  float:right;
+.SplitPane-right {
+  display: table-cell;
+
+  width: 100%;
 }

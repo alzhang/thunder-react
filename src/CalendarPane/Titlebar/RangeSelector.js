@@ -5,10 +5,10 @@ import './Button.css';
 class RangeSelector extends Component {
   render() {
     return (
-      <div class="RangeSelector">
-        <button class="ArrowButton"> &lt; </button>
-        <button class="TextButton"> Today </button>
-        <button class="ArrowButton"> &gt; </button>
+      <div className="RangeSelector">
+        <button className="ArrowButton"> &lt; </button>
+        <button className="TextButton"> Today </button>
+        <button className="ArrowButton"> &gt; </button>
       </div>
     );
   }

@@ -5,11 +5,11 @@ import './Button.css';
 class ViewSelector extends Component {
   render() {
     return (
-      <div class="ViewSelector">
-        <button class="SelectedTextButton"> Day </button>
-        <button class="TextButton"> Week </button>
-        <button class="TextButton"> Month </button>
-        <button class="TextButton"> Year </button>
+      <div className="ViewSelector">
+        <button className="SelectedTextButton"> Day </button>
+        <button className="TextButton"> Week </button>
+        <button className="TextButton"> Month </button>
+        <button className="TextButton"> Year </button>
       </div>
     );
   }

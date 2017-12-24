@@ -4,7 +4,9 @@ import './SearchBar.css'
 class SearchBar extends Component {
   render() {
     return (
-      <input class="SearchBar" value="Search..."/>
+      <div className="SearchBarDiv">
+        <input className="SearchBar" value="Search..."/>
+      </div>
     );
   }
 }

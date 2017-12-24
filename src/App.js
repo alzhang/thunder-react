@@ -7,12 +7,8 @@ class App extends Component {
   render() {
     return (
       <div className="SplitPane">
-        <div className="SplitPane-left">
-          <EventPane />
-        </div>
-        <div className="SplitPane-right">
-          <CalendarPane />
-        </div>
+        <EventPane />
+        <CalendarPane />
       </div>
     );
   }
