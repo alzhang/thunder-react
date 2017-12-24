@@ -1,0 +1,11 @@
+.SplitPane {
+  width:100%;
+}
+
+.SplitPane-left {
+  float:left;
+}
+
+.SplitPane-left {
+  float:right;
+}

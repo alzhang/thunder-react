@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Titlebar from './Titlebar/Titlebar';
+import TitleBar from './Titlebar/TitleBar';
 
 
 class CalendarPane extends Component {
   render() {
     return (
       <div className="CalendarPane">
-        <Titlebar />
+        <TitleBar />
       </div>
     );
   }

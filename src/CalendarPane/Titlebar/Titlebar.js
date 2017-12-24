@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
 import RangeSelector from './RangeSelector';
-import './Titlebar.css';
+import ViewSelector from './ViewSelector';
+import SearchBar from './SearchBar';
+import './TitleBar.css';
 
-class Titlebar extends Component {
+class TitleBar extends Component {
   render() {
     return (
-      <div className="Titlebar" id="container">
+      <div className="TitleBar" id="container">
         <RangeSelector />
-        <div id="right"> !</div>
-        <div id="center"> alex </div>
+        <ViewSelector />
+        <SearchBar />
       </div>
     );
   }
 }
 
-Titlebar.defaultProps = {
+TitleBar.defaultProps = {
 
 };
 
-export default Titlebar;
+export default TitleBar;

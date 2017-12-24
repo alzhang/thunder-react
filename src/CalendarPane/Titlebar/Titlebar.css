@@ -1,5 +1,7 @@
-.Titlebar {
+.TitleBar {
   width:100%;
+  display: inline-block;
+  text-align: center;
 }
 #right{float:right;width:50px;}
 #center{margin:0 auto;width:100px;}
