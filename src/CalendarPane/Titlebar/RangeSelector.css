@@ -1,0 +1,32 @@
+.RangeSelector {
+  float:left;
+  margin-left: 4px;
+}
+
+.ArrowButton {
+  border-style: solid;
+  box-shadow:none;
+  background-color: #eeeeee;
+  border:none;
+  margin-left: 1px;
+  margin-right: 1px;
+
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.TodayButton {
+  border-style: solid;
+  box-shadow:none;
+  background-color: #eeeeee;
+  border:none;
+  margin-left: 1px;
+  margin-right: 1px;
+
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 12px;
+  padding-right: 12px;
+}

@@ -1,0 +1,5 @@
+.Titlebar {
+  width:100%;
+}
+#right{float:right;width:50px;}
+#center{margin:0 auto;width:100px;}
