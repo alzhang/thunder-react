@@ -7,7 +7,7 @@ import './TitleBar.css';
 class TitleBar extends Component {
   render() {
     return (
-      <div className="TitleBar" id="container">
+      <div className="TitleBar">
         <RangeSelector />
         <ViewSelector />
         <SearchBar />

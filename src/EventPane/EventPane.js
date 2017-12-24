@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class EventPane extends Component {
   render() {
     return (
-      <div className="TitleBar" id="container">
+      <div className="EventPane">
       </div>
     );
   }
