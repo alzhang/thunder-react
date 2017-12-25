@@ -13,6 +13,8 @@
   padding-right: 4px;
 
   color: #aaaaaa;
+
+  font-size: 90%;
 }
 
 .TextButton {
@@ -27,6 +29,8 @@
   padding-bottom: 2px;
   padding-left: 12px;
   padding-right: 12px;
+
+  font-size: 90%;
 }
 
 .SelectedTextButton {
@@ -43,4 +47,5 @@
   padding-left: 12px;
   padding-right: 12px;
 
+  font-size: 90%;
 }

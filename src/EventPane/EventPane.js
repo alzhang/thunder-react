@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import './EventPane.css'
+import EventCalendar from './EventCalendar/EventCalendar';
+import './EventPane.css';
 
 class EventPane extends Component {
   render() {
     return (
       <div className="EventPane">
-        hi
+        <EventCalendar />
       </div>
     );
   }
