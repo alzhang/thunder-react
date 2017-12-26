@@ -1,0 +1,16 @@
+.EventMonthCalendar {
+  padding-left: 8px;
+}
+
+.DaysOfWeek {
+  width: 100%;
+  display: table;
+
+  padding: 0;
+}
+
+.DaysOfWeekItem {
+  display: table-cell;
+
+  font-size: 65%;
+}
