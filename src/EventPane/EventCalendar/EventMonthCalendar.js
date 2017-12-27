@@ -13,32 +13,40 @@ class EventMonthCalendar extends Component {
         {dow}
       </li>
     );
+
+    const numbers = <ul className="Dates">
+      <li className="DatesItem">
+        2
+      </li>
+      <li className="DatesItem">
+        2
+      </li>
+      <li className="DatesItem">
+        2
+      </li>
+      <li className="DatesItem">
+        2
+      </li>
+      <li className="DatesItem">
+        2
+      </li>
+      <li className="DatesItem">
+        2
+      </li>
+      <li className="DatesItem">
+        2
+      </li>
+    </ul>;
     return (
       <ul className="EventMonthCalendar">
         <ul className="DaysOfWeek"> {daysOfWeekItems} </ul>
-        <ul className="DaysOfWeek">
-          <li className="DaysOfWeekItem">
-            2
-          </li>
-          <li className="DaysOfWeekItem">
-            2
-          </li>
-          <li className="DaysOfWeekItem">
-            2
-          </li>
-          <li className="DaysOfWeekItem">
-            2
-          </li>
-          <li className="DaysOfWeekItem">
-            2
-          </li>
-          <li className="DaysOfWeekItem">
-            2
-          </li>
-          <li className="DaysOfWeekItem">
-            2
-          </li>
-        </ul>
+        {numbers}
+        {numbers}
+        {numbers}
+        {numbers}
+        {numbers}
+        {numbers}
+
       </ul>
     );
   }

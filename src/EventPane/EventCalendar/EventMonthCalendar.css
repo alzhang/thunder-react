@@ -1,6 +1,9 @@
 .EventMonthCalendar {
+  margin:0;
   padding-left: 8px;
+  padding-right: 8px;
   display: table;
+  table-layout: fixed;
 
   width: 100%;
 }
@@ -9,7 +12,8 @@
   width: 100%;
   display: table-row;
 
-  padding: 0;
+  padding-left: -40px;
+
 
 }
 
@@ -17,4 +21,32 @@
   display: table-cell;
 
   font-size: 65%;
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: 100%;
+
+  color: #848484;
+  text-align: center;
+}
+
+.Dates {
+  width: 100%;
+  display: table-row;
+
+  padding: 0;
+}
+
+.DatesItem {
+  display: table-cell;
+
+  font-size: 80%;
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+
+  width: 100%;
+
+  color:#ffffff;
+  text-align: center;
 }
